@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("VDMaster")]
+[assembly: AssemblyTitle("ThucTapNhom_XH")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("VDMaster")]
+[assembly: AssemblyProduct("ThucTapNhom_XH")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("7b0fcdc8-fc63-4edf-812f-8cf59675bf2e")]
+[assembly: Guid("b8a1de65-1965-49e7-a7d2-e2e9d9b48b76")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace VDMaster.Properties
+namespace ThucTapNhom_XH.Properties
 {
 
 
