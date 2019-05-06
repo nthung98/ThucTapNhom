@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace VDMaster
+namespace ThucTapNhom_XH
 {
     public partial class Form1 : Form
     {

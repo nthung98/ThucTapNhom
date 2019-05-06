@@ -1,4 +1,4 @@
-﻿namespace VDMaster
+﻿namespace ThucTapNhom_XH
 {
     partial class Form1
     {
