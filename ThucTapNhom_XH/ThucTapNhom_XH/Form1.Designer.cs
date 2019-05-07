@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.lbTime = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
@@ -40,6 +41,7 @@
             this.level1 = new System.Windows.Forms.Button();
             this.pbMain = new System.Windows.Forms.PictureBox();
             this.pbPuzzle = new System.Windows.Forms.PictureBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbMain)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbPuzzle)).BeginInit();
@@ -176,6 +178,7 @@
             this.Controls.Add(this.pbPuzzle);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbMain)).EndInit();
@@ -199,6 +202,7 @@
         private System.Windows.Forms.Button level1;
         private System.Windows.Forms.PictureBox pbMain;
         private System.Windows.Forms.PictureBox pbPuzzle;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 
