@@ -42,6 +42,16 @@ namespace ThucTapNhom_XH
                 arr[k] = temp;
             }
         }
+        MyPB firstBox = null;
+        MyPB secondBox = null;
+        private void Switch(MyPB box1, MyPB box2)
+        {
+            int tmp = box2.ImageIndex;
+            box2.Image = images[box1.ImageIndex];
+            box2.ImageIndex = box1.ImageIndex;
+            box1.Image = images[tmp];
+            box1.ImageIndex = tmp;
+        }
         private void buttonImageBrowse_Click(object sender, EventArgs e)
         {
 
