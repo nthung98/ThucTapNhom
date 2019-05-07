@@ -46,5 +46,10 @@ namespace ThucTapNhom_XH
         {
 
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
