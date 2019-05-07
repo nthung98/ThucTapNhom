@@ -17,6 +17,19 @@ namespace ThucTapNhom_XH
             InitializeComponent();
         }
 
+        private int time;
+
+        private bool Trangthai = true;
+        private int currentLevel = 0;
+
+        //PictureBox[] picBoxes = null;
+        //    Image[] images =null;
+        PictureBox[] picBoxes = new PictureBox[100];
+        Image[] images = new Image[100];
+        private const int Level1_number = 9;
+        private const int Level2_number = 16;
+        private const int Level3_number = 25;
+
         private void CatAnh(Image image, Image[] images, int index, int numRow, int numCol, int x, int y)
         {
             images[index] = new Bitmap(x, y);
