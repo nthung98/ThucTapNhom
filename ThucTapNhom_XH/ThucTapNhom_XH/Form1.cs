@@ -77,6 +77,34 @@ namespace ThucTapNhom_XH
                 f2.Show();
             }
         }
+        OpenFileDialog openFileDialog = null;
+        Image image;
+        PictureBox pbWhole = null;
+        private void buttonImageBrowse_Click(object sender, EventArgs e)
+        {
+
+            if (openFileDialog == null)
+            {
+                openFileDialog = new OpenFileDialog();
+            }
+            openFileDialog.Filter = "Image|*.png; *.jpg; *.jpeg; *.psd";    //Gioigan dinh dang
+            if (openFileDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+                image = CreateBitmapImage(Image.FromFile(openFileDialog.FileName));
+                if (pbWhole == null)
+                {
+                    pbWhole = new PictureBox();
+                    pbWhole.Height = pbPuzzle.Height;
+                    pbWhole.Width = pbPuzzle.Width;
+                    pbPuzzle.Controls.Add(pbWhole);
+                }
+                pbWhole.Image = image;
+                pbMain.Image = image;
+
+            }
+
+
+        }
         private void buttonImageBrowse_Click(object sender, EventArgs e)
         {
 
