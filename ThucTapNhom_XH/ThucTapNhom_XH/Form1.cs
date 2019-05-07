@@ -29,6 +29,19 @@ namespace ThucTapNhom_XH
 
             objGraphics.Flush();
         }
+        private void TronAnh(ref int[] arr)
+        {
+            Random rng = new Random();
+            int n = arr.Length;
+            while (n > 1)
+            {
+                int k = rng.Next(n);
+                n--;
+                int temp = arr[n];
+                arr[n] = arr[k];
+                arr[k] = temp;
+            }
+        }
         private void buttonImageBrowse_Click(object sender, EventArgs e)
         {
 
