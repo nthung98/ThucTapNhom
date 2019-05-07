@@ -52,6 +52,31 @@ namespace ThucTapNhom_XH
             box1.Image = images[tmp];
             box1.ImageIndex = tmp;
         }
+        public void xephinhClick(object sender, EventArgs e)
+        {
+            ((MyPB)sender).BorderStyle = BorderStyle.FixedSingle;
+            if (firstBox == null)
+            {
+                firstBox = (MyPB)sender;
+                firstBox.BorderStyle = BorderStyle.FixedSingle;
+            }
+            else if (secondBox == null)
+            {
+                secondBox = (MyPB)sender;
+                firstBox.BorderStyle = BorderStyle.Fixed3D;
+                secondBox.BorderStyle = BorderStyle.FixedSingle;
+                Switch(firstBox, secondBox);
+                firstBox = null;
+                secondBox = null;
+            }
+            if (isTrue())
+            {
+                timer1.Stop();
+                MessageBox.Show("Hoan thanh ");
+                Record f2 = new Record();
+                f2.Show();
+            }
+        }
         private void buttonImageBrowse_Click(object sender, EventArgs e)
         {
 
