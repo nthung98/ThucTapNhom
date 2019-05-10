@@ -1,0 +1,6 @@
+E:\New folder (3)\nam 3\Kỳ 2\ThucTapNhom\ThucTapNhom_XH\ThucTapNhom_XH\obj\Debug\ThucTapNhom_XH.csprojAssemblyReference.cache
+E:\New folder (3)\nam 3\Kỳ 2\ThucTapNhom\ThucTapNhom_XH\ThucTapNhom_XH\obj\Debug\ThucTapNhom_XH.Form1.resources
+E:\New folder (3)\nam 3\Kỳ 2\ThucTapNhom\ThucTapNhom_XH\ThucTapNhom_XH\obj\Debug\ThucTapNhom_XH.Properties.Resources.resources
+E:\New folder (3)\nam 3\Kỳ 2\ThucTapNhom\ThucTapNhom_XH\ThucTapNhom_XH\obj\Debug\ThucTapNhom_XH.Record.resources
+E:\New folder (3)\nam 3\Kỳ 2\ThucTapNhom\ThucTapNhom_XH\ThucTapNhom_XH\obj\Debug\ThucTapNhom_XH.csproj.GenerateResource.cache
+E:\New folder (3)\nam 3\Kỳ 2\ThucTapNhom\ThucTapNhom_XH\ThucTapNhom_XH\obj\Debug\ThucTapNhom_XH.csproj.CoreCompileInputs.cache
