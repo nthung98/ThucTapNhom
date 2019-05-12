@@ -93,11 +93,8 @@ namespace ThucTapNhom_XH
         OpenFileDialog openFileDialog = null;
         Image image;
         PictureBox pbWhole = null;
-        private void buttonImageBrowse_Click(object sender, EventArgs e)
-
-
+        private void buttonImageBrowse_Click_1(object sender, EventArgs e)
         {
-
             if (openFileDialog == null)
             {
                 openFileDialog = new OpenFileDialog();
@@ -117,8 +114,6 @@ namespace ThucTapNhom_XH
                 pbMain.Image = image;
 
             }
-
-
         }
         private Bitmap CreateBitmapImage(Image image)
         {
@@ -131,19 +126,7 @@ namespace ThucTapNhom_XH
         }
 
 
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            lbTime.Text = (time / 60).ToString() + " m : " + (time % 60).ToString() + " s";
-            time--;
-            if (time == 0)
-            {
-                timer1.Stop();
-                MessageBox.Show("Het thoi gian ");
-
-                Record r1 = new Record();
-                r1.Show();
-            }
-        }
+    
         private void Startgame()
         {
             if (pbWhole != null)
@@ -272,9 +255,19 @@ namespace ThucTapNhom_XH
 
         }
 
-        private void buttonImageBrowse_Click_1(object sender, EventArgs e)
+        private void timer1_Tick_1(object sender, EventArgs e)
         {
 
+            lbTime.Text = (time / 60).ToString() + " m : " + (time % 60).ToString() + " s";
+            time--;
+            if (time == 0)
+            {
+                timer1.Stop();
+                MessageBox.Show("Het thoi gian ");
+
+                Record r1 = new Record();
+                r1.Show();
+            }
         }
     }
 }

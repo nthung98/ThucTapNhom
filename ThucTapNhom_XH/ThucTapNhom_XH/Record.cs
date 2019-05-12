@@ -2,19 +2,19 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
-using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+
 
 namespace ThucTapNhom_XH
 {
     public partial class Record : Form
     {
         // SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-I5PP1IK;Initial Catalog=XepHinhClick;Integrated Security=True ");
-        SqlConnection con = new SqlConnection(@"Data Source=Desktop-i5pp1ik;Initial Catalog=XepHinhClick;Integrated Security=True ");
+        SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-I5PP1IK;Initial Catalog=XepHinhClick;Integrated Security=True");
 
         private void Load_Sql()
         {
@@ -95,6 +95,11 @@ namespace ThucTapNhom_XH
             cmd.ExecuteNonQuery();
             Hienthi();
             con.Close();
+        }
+
+        private void Record_Load(object sender, EventArgs e)
+        {
+            Load_Sql();
         }
     }
     }

@@ -4,3 +4,14 @@ E:\New folder (3)\nam 3\Kỳ 2\ThucTapNhom\ThucTapNhom_XH\ThucTapNhom_XH\obj\Deb
 E:\New folder (3)\nam 3\Kỳ 2\ThucTapNhom\ThucTapNhom_XH\ThucTapNhom_XH\obj\Debug\ThucTapNhom_XH.Record.resources
 E:\New folder (3)\nam 3\Kỳ 2\ThucTapNhom\ThucTapNhom_XH\ThucTapNhom_XH\obj\Debug\ThucTapNhom_XH.csproj.GenerateResource.cache
 E:\New folder (3)\nam 3\Kỳ 2\ThucTapNhom\ThucTapNhom_XH\ThucTapNhom_XH\obj\Debug\ThucTapNhom_XH.csproj.CoreCompileInputs.cache
+D:\ThucTap\Git_GitHub\VDRepo\CloneRepo\ThucTapNhom\ThucTapNhom_XH\ThucTapNhom_XH\bin\Debug\ThucTapNhom_XH.exe.config
+D:\ThucTap\Git_GitHub\VDRepo\CloneRepo\ThucTapNhom\ThucTapNhom_XH\ThucTapNhom_XH\bin\Debug\ThucTapNhom_XH.exe
+D:\ThucTap\Git_GitHub\VDRepo\CloneRepo\ThucTapNhom\ThucTapNhom_XH\ThucTapNhom_XH\bin\Debug\ThucTapNhom_XH.pdb
+D:\ThucTap\Git_GitHub\VDRepo\CloneRepo\ThucTapNhom\ThucTapNhom_XH\ThucTapNhom_XH\obj\Debug\ThucTapNhom_XH.csprojAssemblyReference.cache
+D:\ThucTap\Git_GitHub\VDRepo\CloneRepo\ThucTapNhom\ThucTapNhom_XH\ThucTapNhom_XH\obj\Debug\ThucTapNhom_XH.Form1.resources
+D:\ThucTap\Git_GitHub\VDRepo\CloneRepo\ThucTapNhom\ThucTapNhom_XH\ThucTapNhom_XH\obj\Debug\ThucTapNhom_XH.Properties.Resources.resources
+D:\ThucTap\Git_GitHub\VDRepo\CloneRepo\ThucTapNhom\ThucTapNhom_XH\ThucTapNhom_XH\obj\Debug\ThucTapNhom_XH.Record.resources
+D:\ThucTap\Git_GitHub\VDRepo\CloneRepo\ThucTapNhom\ThucTapNhom_XH\ThucTapNhom_XH\obj\Debug\ThucTapNhom_XH.csproj.GenerateResource.cache
+D:\ThucTap\Git_GitHub\VDRepo\CloneRepo\ThucTapNhom\ThucTapNhom_XH\ThucTapNhom_XH\obj\Debug\ThucTapNhom_XH.csproj.CoreCompileInputs.cache
+D:\ThucTap\Git_GitHub\VDRepo\CloneRepo\ThucTapNhom\ThucTapNhom_XH\ThucTapNhom_XH\obj\Debug\ThucTapNhom_XH.exe
+D:\ThucTap\Git_GitHub\VDRepo\CloneRepo\ThucTapNhom\ThucTapNhom_XH\ThucTapNhom_XH\obj\Debug\ThucTapNhom_XH.pdb

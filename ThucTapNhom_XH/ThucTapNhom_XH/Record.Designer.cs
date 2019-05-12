@@ -56,11 +56,11 @@
             this.ThoiGian,
             this.Level,
             this.Column1});
-            this.dataGridView1.Location = new System.Drawing.Point(91, 34);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
+            this.dataGridView1.Location = new System.Drawing.Point(121, 42);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(419, 121);
+            this.dataGridView1.Size = new System.Drawing.Size(559, 149);
             this.dataGridView1.TabIndex = 17;
             // 
             // MaDiem
@@ -89,10 +89,10 @@
             // 
             // Xoa
             // 
-            this.Xoa.Location = new System.Drawing.Point(454, 230);
-            this.Xoa.Margin = new System.Windows.Forms.Padding(2);
+            this.Xoa.Location = new System.Drawing.Point(605, 283);
+            this.Xoa.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Xoa.Name = "Xoa";
-            this.Xoa.Size = new System.Drawing.Size(56, 19);
+            this.Xoa.Size = new System.Drawing.Size(75, 23);
             this.Xoa.TabIndex = 14;
             this.Xoa.Text = "Xoa";
             this.Xoa.UseVisualStyleBackColor = true;
@@ -100,10 +100,10 @@
             // 
             // Sua
             // 
-            this.Sua.Location = new System.Drawing.Point(372, 230);
-            this.Sua.Margin = new System.Windows.Forms.Padding(2);
+            this.Sua.Location = new System.Drawing.Point(496, 283);
+            this.Sua.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Sua.Name = "Sua";
-            this.Sua.Size = new System.Drawing.Size(56, 19);
+            this.Sua.Size = new System.Drawing.Size(75, 23);
             this.Sua.TabIndex = 15;
             this.Sua.Text = "Sua";
             this.Sua.UseVisualStyleBackColor = true;
@@ -111,10 +111,10 @@
             // 
             // Them
             // 
-            this.Them.Location = new System.Drawing.Point(294, 230);
-            this.Them.Margin = new System.Windows.Forms.Padding(2);
+            this.Them.Location = new System.Drawing.Point(392, 283);
+            this.Them.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Them.Name = "Them";
-            this.Them.Size = new System.Drawing.Size(56, 19);
+            this.Them.Size = new System.Drawing.Size(75, 23);
             this.Them.TabIndex = 16;
             this.Them.Text = "Them";
             this.Them.UseVisualStyleBackColor = true;
@@ -122,81 +122,77 @@
             // 
             // txt_Level
             // 
-            this.txt_Level.Location = new System.Drawing.Point(131, 238);
-            this.txt_Level.Margin = new System.Windows.Forms.Padding(2);
+            this.txt_Level.Location = new System.Drawing.Point(175, 293);
+            this.txt_Level.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txt_Level.Name = "txt_Level";
-            this.txt_Level.Size = new System.Drawing.Size(96, 20);
+            this.txt_Level.Size = new System.Drawing.Size(127, 22);
             this.txt_Level.TabIndex = 10;
             // 
             // txt_ThoiGian
             // 
-            this.txt_ThoiGian.Location = new System.Drawing.Point(131, 215);
-            this.txt_ThoiGian.Margin = new System.Windows.Forms.Padding(2);
+            this.txt_ThoiGian.Location = new System.Drawing.Point(175, 265);
+            this.txt_ThoiGian.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txt_ThoiGian.Name = "txt_ThoiGian";
-            this.txt_ThoiGian.Size = new System.Drawing.Size(96, 20);
+            this.txt_ThoiGian.Size = new System.Drawing.Size(127, 22);
             this.txt_ThoiGian.TabIndex = 11;
             // 
             // txt_MaNC
             // 
-            this.txt_MaNC.Location = new System.Drawing.Point(131, 262);
-            this.txt_MaNC.Margin = new System.Windows.Forms.Padding(2);
+            this.txt_MaNC.Location = new System.Drawing.Point(175, 322);
+            this.txt_MaNC.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txt_MaNC.Name = "txt_MaNC";
-            this.txt_MaNC.Size = new System.Drawing.Size(96, 20);
+            this.txt_MaNC.Size = new System.Drawing.Size(127, 22);
             this.txt_MaNC.TabIndex = 12;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(75, 238);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(100, 293);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(33, 13);
+            this.label2.Size = new System.Drawing.Size(42, 17);
             this.label2.TabIndex = 6;
             this.label2.Text = "Level";
             // 
             // txt_MaDiem
             // 
-            this.txt_MaDiem.Location = new System.Drawing.Point(131, 185);
-            this.txt_MaDiem.Margin = new System.Windows.Forms.Padding(2);
+            this.txt_MaDiem.Location = new System.Drawing.Point(175, 228);
+            this.txt_MaDiem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txt_MaDiem.Name = "txt_MaDiem";
-            this.txt_MaDiem.Size = new System.Drawing.Size(96, 20);
+            this.txt_MaDiem.Size = new System.Drawing.Size(127, 22);
             this.txt_MaDiem.TabIndex = 13;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(75, 215);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(100, 265);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(51, 13);
+            this.label3.Size = new System.Drawing.Size(67, 17);
             this.label3.TabIndex = 7;
             this.label3.Text = "Thoi gian";
             // 
             // MaNC
             // 
             this.MaNC.AutoSize = true;
-            this.MaNC.Location = new System.Drawing.Point(75, 262);
-            this.MaNC.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.MaNC.Location = new System.Drawing.Point(100, 322);
             this.MaNC.Name = "MaNC";
-            this.MaNC.Size = new System.Drawing.Size(55, 13);
+            this.MaNC.Size = new System.Drawing.Size(73, 17);
             this.MaNC.TabIndex = 8;
             this.MaNC.Text = "Username";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(75, 187);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(100, 230);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(28, 13);
+            this.label1.Size = new System.Drawing.Size(35, 17);
             this.label1.TabIndex = 9;
             this.label1.Text = "STT";
             // 
             // Record
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(631, 295);
+            this.ClientSize = new System.Drawing.Size(841, 363);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.Xoa);
             this.Controls.Add(this.Sua);
@@ -209,8 +205,10 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.MaNC);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Record";
             this.Text = "Record";
+            this.Load += new System.EventHandler(this.Record_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
