@@ -27,3 +27,4 @@ C:\Users\Admin\Documents\GitHub\ThucTapNhom\ThucTapNhom_XH\ThucTapNhom_XH\obj\De
 C:\Users\Admin\Documents\GitHub\ThucTapNhom\ThucTapNhom_XH\ThucTapNhom_XH\obj\Debug\ThucTapNhom_XH.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Documents\GitHub\ThucTapNhom\ThucTapNhom_XH\ThucTapNhom_XH\obj\Debug\ThucTapNhom_XH.exe
 C:\Users\Admin\Documents\GitHub\ThucTapNhom\ThucTapNhom_XH\ThucTapNhom_XH\obj\Debug\ThucTapNhom_XH.pdb
+D:\ThucTap\Git_GitHub\VDRepo\CloneRepo\ThucTapNhom\ThucTapNhom_XH\ThucTapNhom_XH\obj\Debug\ThucTapNhom_XH.Login.resources
