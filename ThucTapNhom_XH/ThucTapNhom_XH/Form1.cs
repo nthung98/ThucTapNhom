@@ -86,7 +86,10 @@ namespace ThucTapNhom_XH
             }
             if (isTrue())
             {
+                timer1.Stop();
                 MessageBox.Show("Hoan thanh ");
+                Record f2 = new Record();
+                f2.Show();
             }
         }
 
