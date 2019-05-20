@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="XepHinhClick" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-EUAT08B\SQLEXPRESS;Initial Catalog=XepHinhClick;Integrated Security=True" SettingsObjectName="ThucTapNhom_XH.Properties.Settings" SettingsPropertyName="XepHinhClickConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Diem" Member="Diems">
+    <Type Name="Diem">
+      <Column Name="MaDiem" Type="System.String" DbType="Char(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ThoiGian" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="[Level]" Member="Level" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MaNC" Type="System.String" DbType="Char(20)" CanBeNull="true" />
+      <Association Name="NguoiChoi_Diem" Member="NguoiChoi" ThisKey="MaNC" OtherKey="MaNC" Type="NguoiChoi" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TaiKhoan" Member="TaiKhoans">
+    <Type Name="TaiKhoan">
+      <Column Name="MaTK" Type="System.String" DbType="Char(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Username" Type="System.String" DbType="Char(50)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="Char(50)" CanBeNull="true" />
+      <Association Name="TaiKhoan_NguoiChoi" Member="NguoiChois" ThisKey="MaTK" OtherKey="MaTK" Type="NguoiChoi" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NguoiChoi" Member="NguoiChois">
+    <Type Name="NguoiChoi">
+      <Column Name="MaNC" Type="System.String" DbType="Char(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="HoTen" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="BietDanh" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="GT" Type="System.String" DbType="Char(3)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="Char(50)" CanBeNull="true" />
+      <Column Name="MaTK" Type="System.String" DbType="Char(20)" CanBeNull="true" />
+      <Association Name="NguoiChoi_Diem" Member="Diems" ThisKey="MaNC" OtherKey="MaNC" Type="Diem" />
+      <Association Name="TaiKhoan_NguoiChoi" Member="TaiKhoan" ThisKey="MaTK" OtherKey="MaTK" Type="TaiKhoan" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>
